@@ -46,12 +46,12 @@ cargo run
 
 ## Usage
 
-Once the calculator is running, you can input arithmetic expressions and get the results promptly. It supports basic arithmetic operators such as addition, subtraction, multiplication, and division, along with parentheses for grouping expressions.
+Once the calculator is running, you can input arithmetic expressions and get the results promptly. It supports basic arithmetic operators such as addition, subtraction, multiplication, and division.
 
 ## Example
 
 ```rust
-Input: (3 + 4) * 5 - 6 / 2
+Input: 3 + 4 * 5 - 6 / 2
 Output: 29
 ```
 
