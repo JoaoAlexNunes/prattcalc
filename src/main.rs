@@ -5,6 +5,7 @@ use std::io::Write;
 
 pub fn user_input() -> String {
     let mut input = String::new();
+    println!("");
     print!("Enter your number: ");
     std::io::stdout().flush().unwrap();
     std::io::stdin()
@@ -29,7 +30,8 @@ fn main() {
         }
         let ast = parse(&tokens, &mut 0, 0);
 
-        println!("{}", ast);
+        println!("");
+        println!("Ast: {}", ast);
         println!("Eval: {}", ast.eval())
     }
 }
