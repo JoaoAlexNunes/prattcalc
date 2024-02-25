@@ -67,8 +67,8 @@ Contributions to this project are welcome! Feel free to fork the repository, mak
 
 This project benefited from the contributions of:
 
-1. JoaoAlexNunes [https://github.com/JoaoAlexNunes]
-2. amitsingh19975 [https://github.com/amitsingh19975]
+1. [JoaoAlexNunes](https://github.com/JoaoAlexNunes)
+2. [amitsingh19975](https://github.com/amitsingh19975)
 
 Feel free to expand this section with the names or handles of individuals who contributed to the project in any capacity, whether through code, feedback, or ideas. Collaboration enriches the development process and fosters a sense of community within the project.
 
