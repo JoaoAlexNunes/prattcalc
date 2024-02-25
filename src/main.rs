@@ -1,9 +1,7 @@
-mod header;
+mod includes;
 
-use header::{lexer::lex, parser::parse};
+use includes::{lexer::lex, parser::parse};
 use std::io::Write;
-
-// Lexer -> Parser -> AST -> Interpreter/Evaluator
 
 pub fn user_input() -> String {
     let mut input = String::new();

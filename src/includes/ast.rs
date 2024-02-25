@@ -9,7 +9,7 @@ pub enum OperatorKind {
 }
 #[derive(Debug, Clone)]
 pub enum Expr {
-    Number(f64), // in Enum the type is (type)
+    Number(f64),
     Binary {
         kind: OperatorKind,
         left: Box<Expr>,
@@ -19,7 +19,6 @@ pub enum Expr {
         kind: OperatorKind,
         operand: Box<Expr>,
     },
-    // Statements(Vec<Expr>),
 }
 
 impl Expr {
