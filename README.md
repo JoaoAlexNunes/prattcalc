@@ -46,18 +46,31 @@ cargo run
 
 ## Usage
 
-Once the calculator is running, you can input arithmetic expressions and get the results promptly. It supports basic arithmetic operators such as addition, subtraction, multiplication, and division.
+Once the calculator is running, you can input arithmetic expressions and get the results promptly. It supports basic arithmetic operators such as addition, subtraction, multiplication, and division. To exit you just need to write exit.
 
 ## Example
 
-```rust
-Input: 3 + 4 * 5 - 6 / 2
-Output: 29
+```
+Enter your number: -3
+
+Ast: (- 3)
+Eval: -3
+
+Enter your number:
 ```
 
 ## Contribution
 
 Contributions to this project are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
+
+## Collaborators
+
+This project benefited from the contributions of:
+
+1. JoaoAlexNunes [https://github.com/JoaoAlexNunes]
+2. amitsingh19975 [https://github.com/amitsingh19975]
+
+Feel free to expand this section with the names or handles of individuals who contributed to the project in any capacity, whether through code, feedback, or ideas. Collaboration enriches the development process and fosters a sense of community within the project.
 
 ## License
 
