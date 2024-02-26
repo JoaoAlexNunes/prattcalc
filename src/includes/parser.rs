@@ -11,10 +11,6 @@ fn prefix_bp(kind: &TokenKind) -> ((), u8) {
     }
 }
 
-// fn postfix_bp(kind: TokenKind) -> (u8, ()) {
-
-// }
-
 fn infix_bp(kind: &TokenKind) -> (/*LBP*/ u8, /*RBP*/ u8) {
     match kind {
         TokenKind::Addition | TokenKind::Subtraction => (1, 2),
@@ -22,9 +18,6 @@ fn infix_bp(kind: &TokenKind) -> (/*LBP*/ u8, /*RBP*/ u8) {
         _ => panic!("Unknown token {:?}", kind),
     }
 }
-
-// Expr := PrimaryExpr | BinaryExpr
-// BinaryExpr := PrimaryExpr Operator Expr
 
 fn parse_primary(tokens: &[Token], cursor: &mut usize) -> Expr {
     let current_token = &tokens[*cursor];
@@ -79,8 +72,6 @@ pub fn parse(tokens: &[Token], cursor: &mut usize, min_bp: u8) -> Expr {
         if op.kind == TokenKind::EOF {
             break;
         }
-
-        // 1 + 2 * 3 - 4
 
         let (l_bp, r_bp) = infix_bp(&op.kind);
         if min_bp > l_bp {
