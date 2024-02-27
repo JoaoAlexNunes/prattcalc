@@ -38,7 +38,7 @@ For more information on Pratt parsing, you can refer to the following resources:
 To run the calculator, make sure you have Rust installed on your system. Clone the repository and navigate to the project directory. Then, you can build and run the calculator using Cargo, Rust's package manager and build system.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/JoaoAlexNunes/prattcalc/
 cd prattcalc
 cargo build
 cargo run
