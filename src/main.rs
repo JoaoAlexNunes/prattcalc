@@ -6,7 +6,7 @@ use std::io::Write;
 pub fn user_input() -> String {
     let mut input = String::new();
     println!("");
-    print!("Enter your number: ");
+    print!("Enter your expression: ");
     std::io::stdout().flush().unwrap();
     std::io::stdin()
         .read_line(&mut input)
