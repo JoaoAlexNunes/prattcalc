@@ -39,7 +39,7 @@ To run the calculator, make sure you have Rust installed on your system. Clone t
 
 ```bash
 git clone <repository-url>
-cd rust-calculator
+cd prattcalc
 cargo build
 cargo run
 ```
