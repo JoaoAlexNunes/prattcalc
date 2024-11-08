@@ -65,13 +65,14 @@ Contributions to this project are welcome! Feel free to fork the repository, mak
 
 ## Collaborators
 
-This project benefited from the contributions of:
-<a href="https://github.com/JoaoAlexNunes/prattcalc/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=JoaoAlexNunes/prattcalc" />
+<div align="center">
+<a href="https://github.com/joaoalexnunes/quixler/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=joaoalexnunes/quixler" />
 </a>
-
-Made with [contrib.rocks](https://contrib.rocks).
-
+</br>
+Made with <a href="http://contrib.rocks">contrib.rocks</a>
+</div>
+</br>
 Feel free to expand this section with the names or handles of individuals who contributed to the project in any capacity, whether through code, feedback, or ideas. Collaboration enriches the development process and fosters a sense of community within the project.
 
 ## License
