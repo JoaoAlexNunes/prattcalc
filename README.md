@@ -59,10 +59,6 @@ Eval: -3
 Enter your number:
 ```
 
-## Contribution
-
-Contributions to this project are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
-
 ## Collaborators
 
 <div align="center">
@@ -74,7 +70,3 @@ Made with <a href="http://contrib.rocks">contrib.rocks</a>
 </div>
 </br>
 Feel free to expand this section with the names or handles of individuals who contributed to the project in any capacity, whether through code, feedback, or ideas. Collaboration enriches the development process and fosters a sense of community within the project.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
